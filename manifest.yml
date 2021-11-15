@@ -3,3 +3,6 @@ applications:
  - name: movies-reviews-database-fdc
    random-route: false
    memory: 128M
+   services:
+   - Cloudant-as
+   - Natural Language Understanding-11
